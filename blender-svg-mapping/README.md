@@ -1,4 +1,4 @@
-Transforming an SVG of a map of known scale with associated .obj DEM (created by `../DEM2obj/process_tif_create_obj_and_json.py`) so that it is suitable for import into Blender such that the map and DEM line up. Also projecting the map onto the DEM surface.
+Transforming an SVG of a map of known scale with associated .obj DEM (created by `../DEM2obj/process_tif_create_obj_and_json.py`) so that it is suitable for import into Blender such that the map and DEM line up when opened in the same Blender project. Also projecting the map onto the DEM surface.
 
 # Manual Resizing and Rotating
 Within the map SVG file, there should be two circles placed at the north-west and south-east corners just outside the bounding rectangle than encloses the map. These two circles must have their locations within the OSGB36 coordinate system recorded in a "gref" attribute. For example, for a circle whose centre is at (6100,0800) may have an XML that looks like this (cx and cy refers to its position relative to the document's coordinate system and should be automatically generated when the circle is created; style, id and r are arbitrary).

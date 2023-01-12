@@ -3,3 +3,4 @@
 *.obj
 *.svg
 */__pycache__*
+*.png

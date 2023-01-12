@@ -4,7 +4,7 @@ import json
 
 import config
 
-img = np.asarray(Image.open(MAP_PNG))
+img = np.asarray(Image.open(config.MAP_PNG))
 NE = config.MAP_NE
 SW = config.MAP_SW
 dE = NE[0] - SW[0]

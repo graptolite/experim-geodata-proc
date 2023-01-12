@@ -1,1 +1,5 @@
- 
+*.json
+*.tif
+*.obj
+*.svg
+*/__pycache__*

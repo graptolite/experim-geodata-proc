@@ -11,4 +11,4 @@ For this code to work, the map must be in a PNG format where no antialiasing has
 Run `process_lithology.py`, making sure `KEEP_EVERY_N` in `config.py` has been set to preference (the code will discard everything except values in a flattened list with indices that are a multiple of `KEEP_EVERY_N`).
 
 # "Surface" Cross Section Plotting
-Run `plotting.py` with the list of desired coordinates in the `p_s` variable at the top of the file. This will produce line sections with interpolated lithologies and topographies.x
+Run `plotting.py` with the list of desired coordinates in the `p_s` variable at the top of the file. This will produce line sections with interpolated lithologies and topographies. Be aware that this process is **very resource-intensive**.

@@ -1,0 +1,4 @@
+MAP_PNG = "map.png"
+MAP_NE = (67000,16000)
+MAP_SW = (61000,8000)
+KEEP_EVERY_N = 10

@@ -196,8 +196,8 @@ def num2letter(Easting,Northing,figures=4,seperator=" "):
     precision_index = int(precision_index)
     #print(str(Easting))
     #print(str(Northing))
-    x_0 = int(str(Easting)[0])
-    y_0 = int(str(Northing)[0])
+    x_0 = int(Easting/1e5)
+    y_0 = int(Northing/1e5)
 
     if int(min_sigfigs/2) != min_sigfigs/2:
         min_sigfigs = min_sigfigs - 1
